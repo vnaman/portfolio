@@ -25,7 +25,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = 'django-insecure-t=sp8292dw(gg33%k3i#*mh#)%3coc))zdd*k%*4(62h94uzr7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://namanv-portfolio.herokuapp.com/',
 'localhost',
