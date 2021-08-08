@@ -1,2 +1,3 @@
-web: gunicorn cv.wsgi
+web: gunicorn cv.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
 manage.py migrate
