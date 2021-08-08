@@ -24,6 +24,10 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-t=sp8292dw(gg33%k3i#*mh#)%3coc))zdd*k%*4(62h94uzr7'
 
+
+
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
